@@ -1,0 +1,19 @@
+{
+  "name": "@domusjs/create-app",
+  "version": "0.1.1",
+  "description": "Scaffold new DomusJS projects with a single command.",
+  "bin": {
+    "create-app": "./bin/index.js"
+  },
+  "type": "module",
+  "scripts": {
+    "start": "node ./bin/index.js"
+  },
+  "dependencies": {
+    "chalk": "^5.4.1",
+    "prompts": "^2.4.2"
+  },
+  "keywords": ["cli", "scaffold", "domusjs"],
+  "author": "Sergio Salcedo",
+  "license": "MIT"
+}
